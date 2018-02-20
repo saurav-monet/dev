@@ -3,7 +3,8 @@ function one(){
   line 3
 }
  
- function two(){
+ function two(int y){
+  val 2 = y;
   val 7 = one();
   line seven
   line 8
@@ -11,12 +12,12 @@ function one(){
 
 function three(){
   val 3 = one();
-  val 4 = two();
+  val 4 = two(100);
   val 5 = val 3 + val 4;
 }
 
 val 11 = one();
-val 12 = two();
+val 12 = two(200);
 
 echo "val 11 in line 14";
 echo "val 12 in line 15";
