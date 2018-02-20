@@ -4,7 +4,8 @@ function one(){
 }
  
  function two(){
-  line 7
+  val 7 = function one();
+  line seven
   line 8
 }
 
