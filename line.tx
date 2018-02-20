@@ -7,3 +7,9 @@ function one(){
   line 7
   line 8
 }
+
+val 11 = function one();
+val 12 = function two();
+
+echo "val 11 in line 14";
+echo "val 12 in line 15";
