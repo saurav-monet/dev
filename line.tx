@@ -8,8 +8,15 @@ function one(){
   line 8
 }
 
+function three(){
+  val 3 = function one();
+  val 4 = function two();
+  val 5 = val 3 + val 4;
+}
+
 val 11 = function one();
 val 12 = function two();
 
 echo "val 11 in line 14";
 echo "val 12 in line 15";
+echo "val 5 in line 22";
