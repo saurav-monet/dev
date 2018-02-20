@@ -1,21 +1,22 @@
-function one(){
+function one(int x){
+  val 2 = x
   line 2
   line 3
 }
  
  function two(){
-  val 7 = one();
+  val 7 = one(10);
   line seven
   line 8
 }
 
 function three(){
-  val 3 = one();
+  val 3 = one(20);
   val 4 = two();
   val 5 = val 3 + val 4;
 }
 
-val 11 = one();
+val 11 = one(30);
 val 12 = two();
 
 echo "val 11 in line 14";
